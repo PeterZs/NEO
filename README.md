@@ -11,7 +11,7 @@
   <sup>3</sup>Shanghai Qi Zhi Institute
 </p>
 <p align="center">
-  <b>SIGGRAPH 2026 (Conditional Accept)</b>
+  <b>SIGGRAPH 2026</b>
 </p>
 <p align="center">
   <!-- <a href="#"><img src="https://img.shields.io/badge/Paper-PDF-red?logo=adobeacrobatreader" alt="Paper"></a>
@@ -132,7 +132,7 @@ pip install -e .
 
 ## Reproducing Experiments
 
-All paper results can be reproduced by following the steps below. Scripts live under `exp/launch/` and assume the `neo` conda environment is active and `G2PT_DATA_ROOT` (or the relevant per-dataset variable) points to your data directory.
+All paper results can be reproduced by following the steps below. Scripts live under `exp/launch/` and assume the `neo` conda environment is active and `G2PT_DATA_ROOT` (or the relevant per-dataset variable) points to your data directory. ([pretrained weights](https://drive.google.com/drive/folders/12026qTECiGywESPz6WSbpgD8BPMd41Ha?usp=drive_link))
 
 ### 🌙 0. Bonus 
 Beyond the core paper pipeline, this repo also contains a few side utilities and exploratory artifacts that were useful during development but are not part of the main reproduction path.
